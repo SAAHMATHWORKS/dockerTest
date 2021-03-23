@@ -1,5 +1,3 @@
-# app/testPosts.py
-
 from django.test import TestCase
 from app.models import Post
 
@@ -11,4 +9,5 @@ class PostTestCase(TestCase):
         self.assertEqual(post.description, "Blurb")
         self.assertEqual(post.wiki, "Post Body")
 
-        
+
+
