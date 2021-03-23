@@ -10,3 +10,4 @@ class PostTestCase(TestCase):
         self.assertEqual(post.wiki, "Post Body")
 # This is a new line that ends the file.
 
+
